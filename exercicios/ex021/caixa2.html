@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tag</title>
+    <style>
+        *{
+            margin: 0;
+            padding: o;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;  
+          
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 0px;
+            
+        }
+        article{
+            margin-bottom: 5px;
+           
+    
+        }
+        .noticias-brasil{
+            background-color: darkgray;
+            padding: 5px;
+
+        }
+        
+        article > aside{
+            background-color: rgb(56, 55, 55);
+            color: white;
+           padding: 5px;
+           margin: 2px;
+        }
+        nav{
+            background-color: rgb(73, 71, 71);
+            padding: 10px;
+            margin: 5px 0px;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.5);
+            border-radius: 5px;
+        }
+        nav > a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 10px;
+          
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Logo Tipo</h1>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Quem Somos</a>
+            <a href="">Contato</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article class="assuntos">
+                <p>Esporte Politica Tecnologia</p>
+
+            </article>
+        </section>
+
+        <section class="noticias">
+            <article class="noticias-brasil">
+                <h1>Notícias sobre o Brasil</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit accusamus quos magni 
+                     ad commodi possimus rerum similique alias eaque nostrum maiores corporis, saepe 
+                      consequuntur id, dolorum sint molestias impedit explicabo.
+                </p>
+
+                <aside>
+                    <p>Artigo escrito por Jose da Silva</p>
+
+                </aside>
+
+            </article>
+        </section>
+    </main>
+   
+    <footer>
+        <p>Desenvolvido por Marcio Vieira</p>
+    </footer>
+</body>
+</html>

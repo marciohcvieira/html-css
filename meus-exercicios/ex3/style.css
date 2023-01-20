@@ -1,0 +1,44 @@
+@charset "UTF-08";
+
+body{
+  background-color:#B733DA ;
+  margin-top: 80px;
+}
+.box-model{
+  background-color: white;
+  width: 350px;
+  height: 500px;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.589);
+
+}
+.box-model h1{
+  text-align: center;
+  color:black;
+  font-weight:bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 30px;
+}
+
+form{
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bolder;
+  color: darkgrey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+input{
+  border-color:rgba(169, 169, 169, 0.397); 
+}
+button{
+  text-align: center;
+  display: block;
+  margin: auto;
+  background-color: #B733DA;
+  color: white;
+  border: none;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+}

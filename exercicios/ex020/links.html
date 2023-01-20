@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color:red ;
+            text-decoration: none;
+            font-weight: bold;
+        }
+         /*
+            Pseudo-classes podem ser usadas para estiliza elementos não apenas em relação ao conteúdo mas também em relação a fotores extenos como: histórico de navegação(:visited), status do seu conteúdo(como :checked), ou a posição do mouse(como :hover) que permite saber se o mouse esta sobre o elemento.
+            são representados por (:)
+            */
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{
+            color: gold;
+        }
+        a::after{
+            /*
+            Pseudo-elementos podem ser usadas para estilizar partes específicas de um elemento.
+            são representados por (::)
+            */
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+            content: '[link]';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+        
+    <ul>
+        <!--Target_blank -> serve para o link abrir uma nova guia-->
+        <li><a href="https://youtube.com/cursoemvideo/" target="_blank">Canal YouTube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank">Site do CursoemVideo</a></li>
+    </ul>
+</body>
+</html>
